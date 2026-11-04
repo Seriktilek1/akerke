@@ -1,5 +1,5 @@
-// Только публичный Publishable key или legacy anon key. НЕ secret / service_role!
+// Public client configuration. Database access is protected by Supabase Auth and RLS.
 window.WALLET_CONFIG = {
-  url: "", // Например https://abcdefgh.supabase.co
-  key: ""  // Publishable key из проекта Supabase
+  url: "https://sigpoimzjawaduvygfpd.supabase.co",
+  key: "sb_publishable_2GsupLdCExUd0Ao90gB7Zg_nUbnYYqt"
 };
